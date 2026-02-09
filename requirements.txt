@@ -1,0 +1,31 @@
+# requirements.txt
+
+# Core library for building with LLMs
+langchain
+langchain_community
+langchain_huggingface
+# To use a free Google Gemini model instead of paid Bedrock
+langchain_google_genai
+python-dotenv
+
+# For creating embeddings locally and for free
+sentence-transformers
+
+# For creating a local vector database
+faiss-cpu
+
+Flask
+
+flask-cors
+boto3
+
+
+
+# pip install -r requirements.txt
+
+
+
+# python agent.py   
+# python main.py
+# python app.py
+# python create_vector_store.py

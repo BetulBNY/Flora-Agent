@@ -1,0 +1,34 @@
+# Create environment
+uv venv flora
+
+# Activate Environment
+.\flora\Scripts\Activate.ps1
+
+# For deactivate environment
+deactivate
+
+# For listing environment
+uv pip list
+
+# For install Libraries
+uv pip install selenium
+uv pip install -r requirements.txt
+
+# for help
+uv --help
+
+
+# requirements.txt
+
+# Core library for building with LLMs
+langchain
+
+# To use a free Google Gemini model instead of paid Bedrock
+langchain_google_genai
+python-dotenv
+
+# For creating embeddings locally and for free
+sentence-transformers
+
+# For creating a local vector database
+faiss-cpu

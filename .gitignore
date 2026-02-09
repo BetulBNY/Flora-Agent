@@ -1,0 +1,29 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+flora
+
+# IDE / Editor
+.idea/
+.vscode/
+
+# Vector stores / indexes
+faiss_index/
+
+# Logs & temp
+*.log
+oldEdits.txt
+interview.txt
+
+# OS files
+.DS_Store
+Thumbs.db
